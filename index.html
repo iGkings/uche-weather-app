@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Weather Dashboard</h1>
+    <!-- First Column -->
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter a City Name</h3>
+        <input
+          class="city-input"
+          type="text"
+          id="city-input"
+          placeholder="City Name, E.g. Abuja, Aba, Kaduna, Ibadan"
+        />
+        <button class="search-btn" id="search-btn">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn">Use Current Location</button>
+      </div>
+
+      <!-- Second Column -->
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>_______ ( ___ )</h2>
+            <h4>Temperature: __°C</h4>
+            <h4>Wind: __ M/S</h4>
+            <h4>Humidity: 81%</h4>
+          </div>
+        </div>
+
+        <!-- OTHER DAYS -->
+        <div class="days-forecast">
+          <h2>5-Day Forecast</h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h4>Temp : _°c</h4>
+              <h4>Wind: _ M/S</h4>
+              <h4>Humidity: _c</h4>
+            </li>
+
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h4>Temp : _°c</h4>
+              <h4>Wind: _ M/S</h4>
+              <h4>Humidity: _c</h4>
+            </li>
+
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h4>Temp : _°c</h4>
+              <h4>Wind: _ M/S</h4>
+              <h4>Humidity: _c</h4>
+            </li>
+
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h4>Temp : _°c</h4>
+              <h4>Wind: _ M/S</h4>
+              <h4>Humidity: _c</h4>
+            </li>
+
+            <li class="card">
+              <h3>( ______ )</h3>
+              <h4>Temp : _°c</h4>
+              <h4>Wind: _ M/S</h4>
+              <h4>Humidity: _c</h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Copy Right @ DevForge 2026 | Uchenna Igwe | All Right Reserved</p>
+    </footer>
+
+    <!-- <script src="app.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
